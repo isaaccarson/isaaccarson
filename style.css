@@ -829,3 +829,22 @@ footer {
     }
 
 }
+
+/* LARGE SCREENS */
+
+@media (min-width: 1400px) {
+
+    .project-hero,
+    .project-section,
+    .project-navigation {
+        max-width: 1400px;
+    }
+
+    .project-hero {
+        gap: 90px;
+    }
+
+    .project-section {
+        padding: 120px 0;
+    }
+}
