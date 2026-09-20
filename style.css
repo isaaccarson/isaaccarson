@@ -304,12 +304,12 @@ footer {
 
     .hero {
         min-height: 60vh;
-        padding: 60px 5%;
+        padding: 35px 5%;
        
         grid-template-columns: 1fr;
         text-align: center;
         justify-content: center;
-        gap: 50px;
+        gap: 35px;
     }
 
     .project-grid {
