@@ -240,8 +240,8 @@ footer {
 }
 
 .profile-icon {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
 
     border-radius: 50%;
     overflow: hidden;
@@ -256,13 +256,13 @@ footer {
     height: 100%;
 
     object-fit: cover;
-    object-position: 65% top;
-    transform: scale(1.6);
+    object-position: 80% 0%;
+    transform: scale(1.0);
     display: block;
 }
 
 .profile-link:hover .profile-icon {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 
