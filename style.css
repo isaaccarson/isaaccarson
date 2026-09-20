@@ -252,12 +252,12 @@ footer {
 }
 
 .profile-icon img {
-    width: 75%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
 
     object-fit: cover;
-    object-position: center 18%;
-
+    object-position: center 15%;
+    transform: scale(1.4);
     display: block;
 }
 
