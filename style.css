@@ -227,39 +227,6 @@ footer {
 
 
 /* ------------------------------
-   MOBILE
---------------------------------*/
-
-@media (max-width: 700px) {
-
-    .site-header {
-        padding: 18px 5%;
-    }
-
-    .navigation {
-        gap: 12px;
-    }
-
-    .navigation a {
-        font-size: 0.85rem;
-    }
-
-    .hero {
-        min-height: 75vh;
-        padding: 60px 5%;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .work-section,
-    .about-section,
-    .contact-section {
-        padding: 70px 5%;
-    }
-
-/* ------------------------------
    PROFILE LINK
 --------------------------------*/
 
@@ -297,5 +264,38 @@ footer {
 .profile-link:hover .profile-icon {
     opacity: 0.8;
 }
-   
+
+
+/* ------------------------------
+   MOBILE
+--------------------------------*/
+
+@media (max-width: 700px) {
+
+    .site-header {
+        padding: 18px 5%;
+    }
+
+    .navigation {
+        gap: 12px;
+    }
+
+    .navigation a {
+        font-size: 0.85rem;
+    }
+
+    .hero {
+        min-height: 75vh;
+        padding: 60px 5%;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-section,
+    .about-section,
+    .contact-section {
+        padding: 70px 5%;
+    }
 }
