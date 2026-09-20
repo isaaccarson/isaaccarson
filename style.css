@@ -259,4 +259,40 @@ footer {
         padding: 70px 5%;
     }
 
+/* ------------------------------
+   PROFILE LINK
+--------------------------------*/
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.profile-icon {
+    width: 42px;
+    height: 42px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #333;
+
+    flex-shrink: 0;
+}
+
+.profile-icon img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.profile-link:hover .profile-icon {
+    opacity: 0.8;
+}
+   
 }
