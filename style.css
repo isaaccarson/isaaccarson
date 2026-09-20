@@ -100,6 +100,22 @@ h1 {
 
 
 /* ------------------------------
+   HERO VIDEO
+--------------------------------*/
+
+.hero-video {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* ------------------------------
    BUTTON
 --------------------------------*/
 
@@ -287,6 +303,9 @@ footer {
     .hero {
         min-height: 60vh;
         padding: 60px 5%;
+
+        text-align: center;
+        justify-content: center;
     }
 
     .project-grid {
