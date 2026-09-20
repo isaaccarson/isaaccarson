@@ -14,8 +14,8 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #111;
-    color: #f5f5f5;
+    background: #1D1E1B;
+    color: #F1EDE2;
     line-height: 1.6;
 }
 
@@ -34,14 +34,14 @@ body {
     position: sticky;
     top: 0;
 
-    background: rgba(17, 17, 17, 0.9);
+    background: rgba(29, 30, 27, 0.9);
     backdrop-filter: blur(10px);
 
     z-index: 100;
 }
 
 .logo {
-    color: white;
+    color: #F1EDE2;
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,12 +52,12 @@ body {
 }
 
 .navigation a {
-    color: #aaa;
+    color: #B8B5A9;
     text-decoration: none;
 }
 
 .navigation a:hover {
-    color: white;
+    color: #F1EDE2;
 }
 
 
@@ -84,7 +84,7 @@ body {
 .eyebrow {
     font-size: 0.8rem;
     letter-spacing: 0.15em;
-    color: #999;
+    color: #B8B5A9;
     margin-bottom: 15px;
 }
 
@@ -96,7 +96,7 @@ h1 {
 
 .hero-description {
     max-width: 600px;
-    color: #aaa;
+    color: #B8B5A9;
     font-size: 1.1rem;
     margin-bottom: 35px;
 }
@@ -128,8 +128,8 @@ h1 {
 
     padding: 12px 22px;
 
-    background: white;
-    color: #111;
+    background: #F1EDE2;
+    color: #1D1E1B;
 
     text-decoration: none;
 
@@ -176,7 +176,7 @@ h2 {
 }
 
 .project-card {
-    color: white;
+    color: #F1EDE2;
     text-decoration: none;
 }
 
@@ -185,7 +185,7 @@ h2 {
 
     overflow: hidden;
 
-    background: #222;
+    background: #292A25;
 }
 
 .project-image img {
@@ -210,7 +210,7 @@ h2 {
 }
 
 .project-info p {
-    color: #888;
+    color: #B8B5A9;
 }
 
 
@@ -223,7 +223,7 @@ h2 {
 
     font-size: clamp(1.4rem, 3vw, 2.5rem);
 
-    color: #ccc;
+    color: #D8D3C5;
 }
 
 
@@ -242,7 +242,7 @@ h2 {
 
 footer {
     padding: 40px 5%;
-    color: #666;
+    color: #7F7C72;
 }
 
 
@@ -255,7 +255,7 @@ footer {
     align-items: center;
     gap: 12px;
 
-    color: white;
+    color: #F1EDE2;
     text-decoration: none;
 }
 
@@ -266,7 +266,7 @@ footer {
     border-radius: 50%;
     overflow: hidden;
 
-    background: #333;
+    background: #292A25;
 
     flex-shrink: 0;
 }
