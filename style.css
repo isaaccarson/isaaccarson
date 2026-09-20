@@ -289,9 +289,9 @@ footer {
     height: 100%;
 
     object-fit: cover;
-   object-position: center;
+    object-position: center 25%;
 
-   display: block;
+    display: block;
 }
 
 .profile-link:hover .profile-icon {
