@@ -1,0 +1,467 @@
+/* ===============================================
+   PROJECT PAGE STYLES - MOBILE FIRST
+   Visual-first design with perfect responsiveness
+   Updated Color Palette: Softer on Eyes
+================================================= */
+
+/* Back Link */
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9375rem;
+    color: #8B9A7E;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    transition: color 0.25s ease;
+}
+
+.back-link:hover {
+    color: #7A8A6D;
+}
+
+/* ===============================================
+   PROJECT HERO - NEW DESIGN
+================================================= */
+
+.project-hero-new {
+    padding-top: 5rem;
+    background: #F7F5F2;
+}
+
+.project-hero-new-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 2.5rem;
+}
+
+.project-hero-new-content h1 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
+    color: #2C2C2C;
+}
+
+.project-lead {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.6;
+    color: #5A5550;
+    margin-bottom: 2.5rem;
+    max-width: 800px;
+}
+
+.project-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 0;
+    border-top: 1px solid #CCC8BD;
+}
+
+.meta-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.meta-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8C7A6B;
+    font-weight: 500;
+}
+
+.meta-value {
+    font-size: 0.9375rem;
+    color: #2C2C2C;
+    font-weight: 500;
+}
+
+/* ===============================================
+   HERO IMAGE
+================================================= */
+
+.project-image-hero {
+    background: #E8E4DC;
+    padding: 0 1.5rem 3rem;
+}
+
+.project-image-hero img {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 6px;
+    height: auto;
+}
+
+/* ===============================================
+   QUICK OVERVIEW
+================================================= */
+
+.project-quick-overview {
+    background: #F7F5F2;
+    padding: 3.5rem 1.5rem;
+}
+
+.overview-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+}
+
+.overview-item h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #8B9A7E;
+    margin-bottom: 0.75rem;
+}
+
+.overview-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #5A5550;
+}
+
+/* ===============================================
+   VISUAL SECTIONS
+================================================= */
+
+.project-visual-section {
+    background: #F7F5F2;
+    padding: 3.5rem 1.5rem;
+}
+
+.project-visual-alt {
+    background: #E8E4DC;
+}
+
+.visual-section-header {
+    max-width: 1200px;
+    margin: 0 auto 2.5rem;
+}
+
+.section-label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #8C7A6B;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.visual-section-header h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 600;
+    color: #2C2C2C;
+    line-height: 1.2;
+}
+
+/* Large Images */
+.visual-large-image {
+    max-width: 1400px;
+    margin: 0 auto 2.5rem;
+}
+
+.visual-large-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+/* Split Sections */
+.visual-split {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.visual-split-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.visual-split-text {
+    padding: 1rem 0;
+}
+
+.visual-split-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #5A5550;
+}
+
+/* Image Pairs */
+.visual-image-pair {
+    max-width: 1400px;
+    margin: 2.5rem auto 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.visual-image-pair img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+/* Outcome Box */
+.visual-outcome {
+    max-width: 800px;
+    margin: 2.5rem auto 0;
+    padding: 2rem;
+    background: #E8E4DC;
+    border-left: 4px solid #8B9A7E;
+    border-radius: 6px;
+}
+
+.project-visual-alt .visual-outcome {
+    background: #F7F5F2;
+}
+
+.visual-outcome p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #5A5550;
+}
+
+/* ===============================================
+   BOTTOM NAVIGATION
+================================================= */
+
+.project-bottom-nav {
+    background: #F7F5F2;
+    padding: 3rem 1.5rem 4rem;
+}
+
+.bottom-nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bottom-nav-container .btn {
+    text-align: center;
+}
+
+/* ===============================================
+   TABLET BREAKPOINT (600px+)
+================================================= */
+
+@media (min-width: 600px) {
+    .overview-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .visual-image-pair {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .bottom-nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* ===============================================
+   LAPTOP BREAKPOINT (900px+)
+================================================= */
+
+@media (min-width: 900px) {
+    .project-hero-new-container {
+        padding: 4rem 2.5rem 3rem;
+    }
+
+    .project-image-hero {
+        padding: 0 2.5rem 4rem;
+    }
+
+    .project-quick-overview {
+        padding: 4.5rem 2.5rem;
+    }
+
+    .project-visual-section {
+        padding: 4.5rem 2.5rem;
+    }
+
+    .visual-split {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .visual-split-reverse {
+        direction: rtl;
+    }
+
+    .visual-split-reverse > * {
+        direction: ltr;
+    }
+
+    .visual-split-text {
+        padding: 0;
+    }
+
+    .visual-image-pair {
+        margin-top: 3rem;
+    }
+
+    .project-bottom-nav {
+        padding: 4rem 2.5rem 5rem;
+    }
+}
+
+/* ===============================================
+   DESKTOP BREAKPOINT (1200px+)
+================================================= */
+
+@media (min-width: 1200px) {
+    .project-hero-new-container {
+        padding: 5rem 2.5rem 4rem;
+    }
+
+    .project-meta-grid {
+        padding: 2.5rem 0;
+    }
+
+    .project-image-hero {
+        padding: 0 2.5rem 5rem;
+    }
+
+    .project-quick-overview {
+        padding: 5rem 2.5rem;
+    }
+
+    .overview-container {
+        gap: 3rem;
+    }
+
+    .project-visual-section {
+        padding: 5rem 2.5rem;
+    }
+
+    .visual-section-header {
+        margin-bottom: 3rem;
+    }
+
+    .visual-large-image {
+        margin-bottom: 3rem;
+    }
+
+    .visual-split {
+        gap: 4rem;
+    }
+
+    .visual-image-pair {
+        gap: 2.5rem;
+    }
+
+    .visual-outcome {
+        padding: 2.5rem;
+    }
+}
+
+/* ===============================================
+   LARGE DESKTOP (1600px+)
+================================================= */
+
+@media (min-width: 1600px) {
+    .project-hero-new-container,
+    .overview-container,
+    .visual-section-header,
+    .visual-split,
+    .visual-outcome,
+    .bottom-nav-container {
+        max-width: 1400px;
+    }
+
+    .visual-large-image,
+    .project-image-hero img,
+    .visual-image-pair {
+        max-width: 1600px;
+    }
+}
+
+/* ===============================================
+   SMALL MOBILE OPTIMIZATION (max 480px)
+================================================= */
+
+@media (max-width: 480px) {
+    .project-hero-new-container {
+        padding: 2.5rem 1.25rem 2rem;
+    }
+
+    .project-hero-new-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .project-lead {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .project-meta-grid {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+        padding: 1.5rem 0;
+    }
+
+    .project-image-hero {
+        padding: 0 1.25rem 2.5rem;
+    }
+
+    .project-quick-overview {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .overview-container {
+        gap: 2rem;
+    }
+
+    .project-visual-section {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .visual-section-header {
+        margin-bottom: 2rem;
+    }
+
+    .visual-large-image {
+        margin-bottom: 2rem;
+    }
+
+    .visual-split {
+        gap: 1.5rem;
+    }
+
+    .visual-image-pair {
+        margin-top: 2rem;
+        gap: 1.25rem;
+    }
+
+    .visual-outcome {
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .project-bottom-nav {
+        padding: 2.5rem 1.25rem 3.5rem;
+    }
+}
