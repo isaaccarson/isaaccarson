@@ -1,176 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Isaac Carson | Mechanical Design & Manufacturing</title>
-
+    <meta name="description" content="Isaac Carson - Fabrication, mechanical design, CNC machining, and engineering portfolio">
+    <title>Isaac Carson | Fabrication & Engineering</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header class="site-header">
-
-    <a href="about.html" class="profile-link">
-
-        <div class="profile-icon">
-            <img src="images/profilepic.jpeg" alt="Profile photo">
-        </div>
-
-        <span class="logo">Isaac Carson</span>
-
-    </a>
-
-        <nav class="navigation">
-            <a href="#work">Work</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="/" class="logo">Isaac Carson</a>
+            <div class="nav-links">
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#cnc" class="nav-link">CNC</a>
+                <a href="photography.html" class="nav-link">Photography</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="resume.pdf" class="nav-link nav-resume" target="_blank">Resume</a>
+            </div>
         </nav>
-
     </header>
 
-
-    <main>
-
-        <!-- HERO -->
-
-        <section class="hero">
-
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
             <div class="hero-content">
-
-                <p class="eyebrow">
-                    MANUFACTURING • CNC • MECHANICAL DESIGN
+                <h1 class="hero-title">Fabrication & Engineering</h1>
+                <p class="hero-subtitle">
+                    I design and build things—from CAD models to finished products. 
+                    Specializing in CNC machining, metal fabrication, woodworking, 
+                    and mechanical design.
                 </p>
-
-                <h1>
-                    Designing it.<br>
-                    Making it.
-                </h1>
-
-                <p class="hero-description">
-                    Mechanical design and manufacturing projects
-                    spanning CAD, CAM, CNC machining, and fabrication.
-                </p>
-
-                <a href="#work" class="button">
-                    View My Work
-                </a>
-
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
             </div>
-
-            <div class="hero-video">
-                <video autoplay muted loop playsinline>
-                    <source src="videos/hero-video.mp4" type="video/mp4">
-                </video>
+            <div class="hero-media">
+                <div class="cad-render-container">
+                    <!-- Placeholder for CAD motion rendering -->
+                    <div class="render-placeholder">
+                        <p>CAD Motion Rendering</p>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-        </section>
-
-
-        <!-- FEATURED WORK -->
-
-        <section id="work" class="work-section">
-
-            <div class="section-heading">
-                <p class="eyebrow">SELECTED WORK</p>
-                <h2>Featured Projects</h2>
-            </div>
-
-
-            <div class="project-grid">
-
-                <a href="projects/dentist-sign.html" class="project-card">
-
+    <!-- Featured Projects -->
+    <section id="projects" class="featured-projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-intro">Selected works showcasing design, fabrication, and engineering capabilities</p>
+            
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <article class="project-card">
                     <div class="project-image">
                         <img src="images/dentist-sign/dentist-cover.jpeg" alt="Clayton Dentistry Sign">
                     </div>
-
-                    <div class="project-info">
-                        <h3>Clayton Dentistry Sign</h3>
-                        <p>Custom Stainless Steel Waiting Room Sign</p>
+                    <div class="project-details">
+                        <h3 class="project-title">Clayton Dentistry Sign</h3>
+                        <p class="project-description">Custom stainless steel waiting room signage</p>
+                        <span class="project-tags">Metal Fabrication · CAD · CNC</span>
+                        <a href="projects/dentist-sign.html" class="project-btn">View Project</a>
                     </div>
+                </article>
 
-                </a>
-
-
-                <a href="projects/project-2.html" class="project-card">
-
+                <!-- Project 2 -->
+                <article class="project-card">
                     <div class="project-image">
-                        <img src="images/project-2.jpg" alt="Project 2">
+                        <img src="images/project-2.jpg" alt="Custom Guitar">
                     </div>
-
-                    <div class="project-info">
-                        <h3>Carson Custom Guitars</h3>
-                        <p>Custom Electric & Bass Guitar Design and Manufacturing</p>
+                    <div class="project-details">
+                        <h3 class="project-title">Carson Custom Guitars</h3>
+                        <p class="project-description">Electric & bass guitar design and manufacturing</p>
+                        <span class="project-tags">Woodworking · Design · Assembly</span>
+                        <a href="projects/guitar.html" class="project-btn">View Project</a>
                     </div>
+                </article>
 
-                </a>
-
-
-                <a href="projects/project-3.html" class="project-card">
-
+                <!-- Project 3 -->
+                <article class="project-card">
                     <div class="project-image">
-                        <img src="images/project-3.jpg" alt="Project 3">
+                        <img src="images/project-3.jpg" alt="Hot Strip Mill Mandrel">
                     </div>
-
-                    <div class="project-info">
-                        <h3>Hot Strip Mill Mandrel</h3>
-                        <p>CAD Design and Analysis</p>
+                    <div class="project-details">
+                        <h3 class="project-title">Hot Strip Mill Mandrel</h3>
+                        <p class="project-description">CAD design and structural analysis</p>
+                        <span class="project-tags">CAD · Analysis · Engineering</span>
+                        <a href="projects/mandrel.html" class="project-btn">View Project</a>
                     </div>
-
-                </a>
+                </article>
 
             </div>
+        </div>
+    </section>
 
-        </section>
-
-
-        <!-- ABOUT -->
-
-        <section id="about" class="about-section">
-
-            <div class="section-heading">
-                <p class="eyebrow">ABOUT</p>
-                <h2>Design to Finished Product</h2>
+    <!-- Fabrication Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="section-container">
+            <h2 class="section-title">Fabrication Gallery</h2>
+            <p class="section-intro">Smaller projects and builds—woodworking, metalwork, and fabrication</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery/item1.jpg" alt="Fabrication work">
+                    <div class="gallery-overlay">
+                        <span>Custom Bracket</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/item2.jpg" alt="Woodworking project">
+                    <div class="gallery-overlay">
+                        <span>Walnut Side Table</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/item3.jpg" alt="Metal fabrication">
+                    <div class="gallery-overlay">
+                        <span>Steel Frame</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/item4.jpg" alt="CNC project">
+                    <div class="gallery-overlay">
+                        <span>Milled Component</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/item5.jpg" alt="Wood joint detail">
+                    <div class="gallery-overlay">
+                        <span>Joinery Detail</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/item6.jpg" alt="Machined part">
+                    <div class="gallery-overlay">
+                        <span>Precision Part</span>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <p class="about-text">
-                I work at the intersection of mechanical design and
-                manufacturing, developing parts and products from
-                concept through CAD, CAM, machining, and finishing.
-            </p>
+    <!-- CNC Capabilities Section -->
+    <section id="cnc" class="cnc-section">
+        <div class="section-container">
+            <h2 class="section-title">CNC & CAM Capabilities</h2>
+            <div class="cnc-content">
+                <p class="cnc-intro">
+                    Specialized expertise in CNC programming, CAM template development, and manufacturing optimization—
+                    helping shops streamline operations and improve production efficiency.
+                </p>
 
-        </section>
+                <div class="capabilities-grid">
+                    <div class="capability-item">
+                        <div class="capability-icon">⚙️</div>
+                        <h3>CAM Programming</h3>
+                        <p>Fusion 360 CAM, toolpath optimization, post-processor customization</p>
+                    </div>
+                    <div class="capability-item">
+                        <div class="capability-icon">📐</div>
+                        <h3>Template Development</h3>
+                        <p>Standardized CAM templates for consistent, repeatable production workflows</p>
+                    </div>
+                    <div class="capability-item">
+                        <div class="capability-icon">🔧</div>
+                        <h3>Process Optimization</h3>
+                        <p>Cycle time reduction, tool selection, and fixture design consultation</p>
+                    </div>
+                    <div class="capability-item">
+                        <div class="capability-icon">📊</div>
+                        <h3>Training & Support</h3>
+                        <p>Operator training, documentation, and ongoing technical support</p>
+                    </div>
+                </div>
 
+                <a href="#contact" class="btn btn-primary">Discuss CNC Solutions</a>
+            </div>
+        </div>
+    </section>
 
-        <!-- CONTACT -->
+    <!-- Photography Easter Egg -->
+    <section class="photography-easter-egg">
+        <div class="easter-egg-container">
+            <p class="easter-egg-hint">Also a hobby photographer</p>
+            <a href="photography.html" class="easter-egg-link">View Photography</a>
+        </div>
+    </section>
 
-        <section id="contact" class="contact-section">
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-subtle">
+            <h2>Let's Connect</h2>
+            <p>Available for custom projects, CAM consulting, and fabrication work.</p>
+            <div class="contact-methods">
+                <a href="mailto:isaac@example.com" class="contact-method">
+                    <span>📧</span>
+                    <span>Email</span>
+                </a>
+                <a href="tel:+1234567890" class="contact-method">
+                    <span>📱</span>
+                    <span>Call</span>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-method">
+                    <span>💼</span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
-            <p class="eyebrow">CONTACT</p>
-
-            <h2>Let's build something.</h2>
-
-            <a href="mailto:your@email.com" class="button">
-                Get in Touch
-            </a>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-        <p>© 2026 Your Name</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Isaac Carson. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+                <a href="mailto:isaac@example.com">Email</a>
+            </div>
+        </div>
     </footer>
 
-
     <script src="script.js"></script>
-
 </body>
-
 </html>
